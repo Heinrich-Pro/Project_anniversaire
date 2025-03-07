@@ -1,7 +1,7 @@
 from django import forms
 from .models import index
 
-class ParticipantForm(forms.ModelForm):
+class indexForm(forms.ModelForm):
     class Meta:
         model = index
         fields = ['nom', 'email', 'message']
