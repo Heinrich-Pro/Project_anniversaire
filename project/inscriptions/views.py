@@ -1,6 +1,6 @@
 from django.shortcuts import render, redirect
-from inscriptions.models import Participant
-from .forms import ParticipantForm
+from inscriptions.models import index
+from .forms import ParticipanForm
 from django.core.mail import send_mail
 from django.conf import settings
 from django.template.loader import render_to_string
